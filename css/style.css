@@ -1,0 +1,73 @@
+.table-todos tr:hover {
+  background-color: rgba(190, 203, 215, 0.37) !important;
+}
+.plus {
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #9c27b0;
+  color: #fff;
+  cursor: pointer;
+  width: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+#navbarNav > ul > li > a:hover {
+  color: #fff;
+  border-bottom: 3px solid rgb(250, 127, 127);
+  border-width: 2px;
+}
+.table-right-section tr td {
+  padding-bottom: 1.5px !important;
+  padding-top: 1.5px !important;
+}
+.table-right-section tr:hover {
+  background-color: rgba(190, 203, 215, 0.37) !important;
+  cursor: pointer;
+}
+.table-left-section tr:hover {
+  background-color: rgba(190, 203, 215, 0.37) !important;
+  cursor: pointer;
+}
+.table-todos tr td span img:first-child {
+  z-index: 3;
+  position: relative;
+  left: 30px !important;
+}
+.table-todos tr td span img:nth-child(2) {
+  z-index: 2;
+  position: relative;
+}
+.table-todos tr td span img:nth-child(3) {
+  z-index: 1;
+  position: relative;
+  right: 30px !important;
+}
+@media (max-width: 1155px) {
+  .table-todos span img {
+    visibility: hidden;
+  }
+}
+.table-todos span img {
+  position: relative;
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  width: 40px;
+  height: auto;
+}
+.todoicon {
+  align-items: center;
+  color: purple;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.navlefticon{
+    cursor: pointer;
+}
