@@ -65,9 +65,17 @@
   align-items: center;
   color: purple;
   font-size: 20px;
+  cursor: pointer;
   margin-bottom: 25px;
 }
 
 .navlefticon{
     cursor: pointer;
+}
+
+svg{
+  display: inline;
+  transform: scale(0.25.0.25);
+  margin-left: -90px;
+  margin-top: -80px;
 }
